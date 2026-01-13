@@ -1,16 +1,1 @@
-name: Waka Readme
-
-on:
-  schedule:
-    # Jalan otomatis setiap jam 12 malam UTC
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Supaya bisa di-klik manual
-
-jobs:
-  update-readme:
-    name: Update Readme with Metrics
-    runs-on: ubuntu-latest
-    steps:
-      - uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+Naufal Aziz Budiandra is an undergraduate student in Industrial Engineering at Yogyakarta State University, specializing in Web and Mobile Development. He has three months of internship experience at PT Bumi Siak Pusako, where he contributed to the development of a web-based business travel management system, and experience at PT Jawara as a UI/UX Designer, focusing on interface design and prototyping using Figma. He is accustomed to working in a structured and analytical manner, with a strong interest in web development, mobile applications, and user-centered design.
